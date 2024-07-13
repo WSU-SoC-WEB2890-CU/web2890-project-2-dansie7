@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>WEB 2890 - Project 2</title>
+  <title>Storm</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index,follow">
   <meta name="description" content="TODO: Project 2 ...">
@@ -11,17 +11,58 @@
   <link rel="stylesheet" href="./stylesheets/main.scss">
 </head>
 
-<body>
-  <!-- Your HTML goes here -->
-  <h1 class="display-2 text-center my-5 py-5">
-    <span class="d-block py-5 mt-5">
-      <i class="bi bi-filetype-html text-primary"></i> / 
-      <i class="bi bi-filetype-css text-danger"></i> / 
-      <i class="bi bi-filetype-js text-success"></i>
-    </span>
-    
-    Project 2: A multiple-page project of your choosing.
-  </h1>
+<body id="home">
+  <!-- NAVBAR------------------------------------------------------------------- -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html"><img src="./images/storm-logo-sm.png" alt="storm logo"/></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">about</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./riders.html">riders</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./patents-investors.html">patents + investors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">contact</a>
+          </li>
+          
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="home container-fluid d-flex justify-content-center align-items-center flex-column ">
+    <img src="./images/storm-logo.png" alt="storm logo" width="500" class="mt-5"/>
+    <h1 class="text-light">Welcome to Evolution</h1>
+    <p class="lead text-light fs-3">Snowboard Created For All</p>
+    <i class="bi bi-lightning-charge"></i>
+    <div class="mt-3 pb-5">
+      <a class="btn btn-outline-light btn-lg me-2 p-3" href="./about.html">About</a>
+      <a class="btn btn-outline-light btn-lg me-2 p-3" href="./riders.html">Riders</a>
+      <a class="btn btn-outline-light btn-lg me-2 p-3" href="./patents-investors.html">patents + investors</a>
+    </div>
+  </div>
+
+  <div class="container-fluid m-0 p-0">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0f81ce" fill-opacity="1" d="M0,128L480,160L960,288L1440,160L1440,0L960,0L480,0L0,0Z"></path></svg>
+</div> 
+
+<footer class="container-fluid bg-dark text-light pt-3 pb-3">
+<p class="text-center"><small>All material attributed to <a class="contact" href="http://stormsnowboards.com/index.html">Storm Snowboards</a> | Website Redesign Mockup | Copyright &copy; 2024</small></p>
+
+</footer>
 
   <script type="module" src="./javascripts/main.js"></script>
 </body>

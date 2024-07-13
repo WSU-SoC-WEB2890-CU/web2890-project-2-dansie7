@@ -1,3 +1,131 @@
 /* Your styles go here */
 @import "bootstrap/scss/bootstrap.scss";
 @import "bootstrap-icons/font/bootstrap-icons.css";
+
+@font-face {
+    font-family: viper;
+    src: url(../fonts/viper_nora.otf);
+}
+
+div.home {
+background-image: url('https://images.unsplash.com/photo-1460147395550-b2c19908a40f?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+div.contact {
+    background-image: url('https://images.unsplash.com/photo-1460147395550-b2c19908a40f?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    }
+
+div.about {
+    background-image: url('https://images.unsplash.com/photo-1551660209-9ceaab86a803?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    }
+
+div.riders {
+    background-image: url('https://images.unsplash.com/photo-1568669045265-9c9f5951b371?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    }
+
+div.patents {
+    background-image: url('http://www.stormsnowboards.com/snowboard_top_angle_view.jpeg');
+    background-image: url('http://www.stormsnowboards.com/snowboard_bottom_view.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    }
+
+h1, h2, h3 {
+font-family: viper, ariel;
+}
+
+.bi-lightning-charge {
+font-size: 4rem;
+color: white;
+}
+
+.bi-lightning-charge.blue {
+    font-size: 4rem;
+    color: #0F81CE;
+    }
+
+a.btn:link, a.btn:visited {
+background-color: rgba(255,255,255,.1);
+}
+
+a.btn:hover {
+background-color: black;
+color: white;
+font-family: viper, ariel;
+border-width: 3px;
+}
+
+a.btn.patents:hover {
+    background-color: black;
+    color: white;
+    font-family: viper, ariel;
+    border: 3px solid white;
+    }
+
+button.btn{
+    background-color: rgba(255,255,255,.1);
+    }
+    
+    button.btn:hover {
+    background-color: black;
+    color: white;
+    font-family: viper, ariel;
+    border: 3px solid white;
+    }
+
+.viper-font {
+font-family: viper, ariel;
+}
+
+.depth {
+box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.investors {
+background-color: #0F81CE;
+color: white;
+}
+
+i.contact {
+font-size: 2rem;
+}
+
+a.contact {
+color: white;
+text-decoration: none;
+}
+
+a.contact:hover {
+color: #0f81ce;
+}
+
+h6 {
+font-size: .9rem;
+
+}
+
+
+
+
+
+
+
+
