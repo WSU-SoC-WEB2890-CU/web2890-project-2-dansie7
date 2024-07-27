@@ -7,6 +7,10 @@
     src: url(../fonts/viper_nora.otf);
 }
 
+body {
+    font-size: 1.1rem;
+}
+
 // BANNERS------------------------------------------
 div.home {
 background-image: url('https://images.unsplash.com/photo-1460147395550-b2c19908a40f?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
@@ -47,7 +51,7 @@ div.patents {
     height: 50vh;
     }
 
-.investors {
+.bg-blue {
     background-color: #0F81CE;
     color: white;
     }
@@ -81,9 +85,12 @@ i.contact {
     font-size: 2rem;
     }
 
+
+
 // Links----------------------------------------------------------
 a.btn:link, a.btn:visited {
 background-color: rgba(255,255,255,.1);
+text-transform: uppercase;
 }
 
 a.btn:hover {
@@ -106,8 +113,21 @@ a.contact {
     }
     
     a.contact:hover {
-    color: #0f81ce;
+    color: #052438;
     }
+
+footer a.contact:hover {
+    color: #0F81CE;
+}
+
+.nav-link {
+font-family: viper, ariel;
+}
+
+.button-links a:hover {
+font-family: viper, ariel;
+}
+
            
 
 // Buttons----------------------------------------------------
@@ -130,6 +150,172 @@ font-family: viper, ariel;
 .depth {
 box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
+
+
+
+
+
+
+
+// SNOW ANIMATION-----------------------------------------------
+.snow-container {
+position: relative;
+
+}
+
+.snow {
+position: absolute;
+border-radius: 50%;
+background: white;
+}
+
+.snow:nth-child(odd) {
+    position: absolute;
+    height: 7px;
+    width: 7px;
+    top: 0;
+    animation: falling 10s linear infinite;
+    }
+
+.snow:nth-child(2) {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 0;
+    left: 10%;
+    animation: falling 12s linear infinite;
+    }
+
+.snow:nth-child(3) {
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    top: 10%;
+    left: 10%;
+    animation: falling 17s linear infinite;
+    }
+
+.snow:nth-child(4) {
+    position: absolute;
+    height: 14px;
+    width: 14px;
+    top: 30%;
+    left: 20%;
+    animation: falling 11s linear infinite;
+    }
+
+.snow:nth-child(5) {
+    position: absolute;
+    height: 7px;
+    width: 7px;
+    top: 0;
+    left: 30%;
+    animation: falling 10s linear infinite;
+    }
+
+.snow:nth-child(6) {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 10%;
+    left: 40%;
+    animation: falling 20s linear infinite;
+    }
+
+.snow:nth-child(7) {
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    top: 70%;
+    left: 50%;
+    animation: falling 15s linear infinite;
+    }
+
+.snow:nth-child(8) {
+    position: absolute;
+    height: 14px;
+    width: 14px;
+    top: 50%;
+    left: 60%;
+    animation: falling 7s linear infinite;
+    }
+
+.snow:nth-child(9) {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 0;
+    left: 70%;
+    animation: falling 10s linear infinite;
+    }
+
+.snow:nth-child(10) {
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    top: 50%;
+    left: 80%;
+    animation: falling 9s linear infinite;
+    }
+
+.snow:nth-child(11) {
+    position: absolute;
+    height: 14px;
+    width: 14px;
+    top: 20%;
+    left: 90%;
+    animation: falling 15s linear infinite;
+    }
+
+.snow:nth-child(12) {
+    position: absolute;
+    height: 14px;
+    width: 14px;
+    top: 0;
+    left: 97%;
+    animation: falling 10s linear infinite;
+    }
+
+
+@keyframes falling {
+    0% {
+        transform: translate(0);
+        opacity: 0;
+    }
+    20% {
+        transform: translate(4px, 100px);
+        opacity: 0.8;
+    }
+    40% {
+        transform: translate(-7px, 200px);
+        opacity: 0.7;
+    }
+    60% {
+        transform: translate(10px, 300px);
+        opacity: 0.5;
+    }
+    80% {
+        transform: translate(-14px, 400px);
+        opacity: 0.2;
+    }
+    100% {
+        transform: translate(16px, 500px);
+        opacity: 0;
+    }
+}
+
+
+// TRANSFORMATIONS-------------------------------
+
+.scale-up {
+    transition: transform 1s ease-in-out;
+}
+
+
+.scale-up:hover {
+ transform: scale(1.5) rotate(-20deg);
+}
+
 
 
 
